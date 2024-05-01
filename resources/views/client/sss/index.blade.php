@@ -31,7 +31,7 @@
 <div class="row faq-wrap">
 <div class="col-lg-12">
 <div class="faq-head">
-<h2>Ortopedi ve Travmatoloji Hakkında Sıkça Sorulan Sorularrrr</h2>
+<h2>Ortopedi ve Travmatoloji Hakkında Sıkça Sorulan Sorular1</h2>
 </div>
 <div class="faq-item">
 <ul class="accordion">
