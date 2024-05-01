@@ -12,7 +12,7 @@ class BlogController extends Controller
     public function index()
     {
         $blogs = Blog::orderBy('id','desc')->get();
-        print_r($blogs);die;
+        // print_r($blogs);die;
         return view('admin.blogs.index', compact('blogs'));
     }
     public function show(Blog $blog)
