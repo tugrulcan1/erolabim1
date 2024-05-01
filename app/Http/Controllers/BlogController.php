@@ -11,8 +11,8 @@ class BlogController extends Controller
 {
     public function index()
     {
-        $blogs = Blog::orderByDesc('id')->get();
-
+        $blogs = Blog::orderBy('id','desc')->get();
+        print_r($blogs);
         return view('admin.blogs.index', compact('blogs'));
     }
     public function show(Blog $blog)
