@@ -21,7 +21,8 @@ class BlogController extends Controller
     }
     public function asd()
     {
-        $blogs = Blog::all();
+        $blogs = Blog::orderBy('id','desc')->get();
+        // $blogs::orderBy('id','desc')->get();
        return view('client.blogs',compact('blogs'));
     }
 
